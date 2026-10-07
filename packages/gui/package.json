@@ -1,16 +1,20 @@
 {
-  "name": "@docmirror/dev-sidecar-gui",
-  "version": "2.3.1",
+  "name": "@dyr1980/dev-sidecar-gui",
+  "version": "2.3.3",
   "private": false,
   "type": "module",
   "main": "src/background.js",
   "author": {
-    "email": "xiaojunnuo@qq.com",
-    "name": "Greper"
+    "email": "365596078@qq.com",
+    "name": "dyr1980"
   },
   "description": "开发者边车辅助工具 — 加速 GitHub/NPM/Docker Hub 等站点的本地 MITM 代理",
   "license": "MPL-2.0",
-  "homepage": "https://github.com/docmirror/dev-sidecar",
+  "homepage": "https://github.com/dyr1980/dev-sidecar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dyr1980/dev-sidecar.git"
+  },
   "scripts": {
     "gen:tray-plugins": "node scripts/gen-tray-plugins.mjs",
     "serve": "pnpm exec vue-cli-service serve",
